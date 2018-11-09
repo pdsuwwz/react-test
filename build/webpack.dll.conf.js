@@ -5,7 +5,7 @@ const AssetsPlugin = require('assets-webpack-plugin')
 module.exports = {
   mode: process.env.NODE_ENV,
   entry: {
-    vendor: ['react', 'react-dom', 'react-router-dom', 'prop-types']
+    vendor: ['react', 'react-dom', 'react-router', 'react-router-dom', 'prop-types']
   },
   output: {
     path: path.join(__dirname, '../vendor', 'dll'),

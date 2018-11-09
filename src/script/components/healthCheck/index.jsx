@@ -1,7 +1,7 @@
 import './style.scss'
 
 export default class HealthCheck extends React.Component {
-  constructor(props){
+  constructor(props) {
     super(props)
   }
   componentWillMount = () => {
@@ -11,6 +11,7 @@ export default class HealthCheck extends React.Component {
     return (
       <div styleName="wrap">
         <p styleName="hello">HealthCheck</p>
+        <p>200</p>
       </div>
     )
   }
